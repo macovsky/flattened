@@ -23,9 +23,9 @@ hi Cursor                                  cterm=NONE  ctermfg=15  ctermbg=11  g
 hi CursorColumn                            cterm=NONE  ctermbg=7  guibg=#eee8d5  gui=NONE
 hi CursorLine                              cterm=NONE  ctermbg=7  guibg=#eee8d5  guisp=#586e75  gui=NONE
 hi CursorLineNr                            cterm=NONE  ctermfg=130  gui=NONE  guifg=Brown
-hi DiffAdd                                 cterm=NONE  ctermfg=2  ctermbg=7  gui=NONE  guifg=#719e07  guibg=#eee8d5  guisp=#719e07  gui=NONE
-hi DiffChange                              cterm=NONE  ctermfg=3  ctermbg=7  gui=NONE  guifg=#b58900  guibg=#eee8d5  guisp=#b58900  gui=NONE
-hi DiffDelete                              cterm=NONE  ctermfg=1  ctermbg=7  gui=NONE  guifg=#dc322f  guibg=#eee8d5  gui=NONE
+hi DiffAdd                                 cterm=NONE  ctermfg=2  ctermbg=7  gui=NONE  guifg=#719e07  guibg=#e1e4b7  guisp=#719e07  gui=NONE
+hi DiffChange                              cterm=NONE  ctermfg=3  ctermbg=7  gui=NONE  guifg=#b58900  guibg=#efe0b6  guisp=#b58900  gui=NONE
+hi DiffDelete                              cterm=NONE  ctermfg=1  ctermbg=7  gui=NONE  guifg=#dc322f  guibg=#f6cfbf  gui=NONE
 hi DiffText                                cterm=NONE  ctermfg=4  ctermbg=7  gui=NONE  guifg=#268bd2  guibg=#eee8d5  guisp=#268bd2  gui=NONE
 hi Directory                               cterm=NONE  ctermfg=4  guifg=#268bd2  gui=NONE
 hi Error                                   cterm=NONE  ctermfg=1  ctermbg=NONE  guifg=#dc322f  guibg=#fdf6e3  gui=NONE
@@ -244,7 +244,7 @@ hi link SyntasticWarningSign       Todo
 hi link Tag                        Special
 hi link Typedef                    Type
 
-hi link diffAdded                  Statement
+hi link diffAdded                  DiffAdd
 hi link diffBDiffer                WarningMsg
 hi link diffCommon                 WarningMsg
 hi link diffDiffer                 WarningMsg
@@ -253,7 +253,7 @@ hi link diffIsA                    WarningMsg
 hi link diffLine                   Identifier
 hi link diffNoEOL                  WarningMsg
 hi link diffOnly                   WarningMsg
-hi link diffRemoved                WarningMsg
+hi link diffRemoved                DiffDelete
 
 hi link gitcommitDiscarded         gitcommitComment
 hi link gitcommitDiscardedArrow    gitcommitDiscardedFile
