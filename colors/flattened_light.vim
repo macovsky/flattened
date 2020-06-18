@@ -15,7 +15,7 @@ hi Normal                                  cterm=NONE  ctermfg=11  ctermbg=15  g
 set background=light
 
 hi ColorColumn                             cterm=NONE  ctermbg=7  guibg=#eee8d5  gui=NONE
-hi Comment                                 cterm=NONE  ctermfg=14 guifg=#93a1a1  gui=italic
+hi Comment                                 cterm=NONE  ctermfg=14 guifg=#93a1a1  gui=NONE
 hi ConId                                   cterm=NONE  ctermfg=3  guifg=#b58900  gui=NONE
 hi Conceal                                 cterm=NONE  ctermfg=4  ctermbg=15  guifg=#268bd2  guibg=#fdf6e3  gui=NONE
 hi Constant                                cterm=NONE  ctermfg=6  guifg=#2aa198  gui=NONE
@@ -39,7 +39,7 @@ hi LineNr                                  cterm=NONE  ctermfg=14  ctermbg=7  gu
 hi MatchParen                              cterm=NONE  ctermfg=1  ctermbg=14  gui=NONE  guifg=#dc322f  guibg=#93a1a1  gui=NONE
 hi ModeMsg                                 cterm=NONE  ctermfg=4  guifg=#268bd2  gui=NONE
 hi MoreMsg                                 cterm=NONE  ctermfg=4  guifg=#268bd2  gui=NONE
-hi NonText                                 cterm=NONE  ctermfg=12  gui=NONE  guifg=#839496  gui=NONE
+hi NonText                                 cterm=NONE  ctermfg=12  gui=NONE  guifg=#eee8d5  gui=NONE
 hi Pmenu                                   cterm=reverse  ctermfg=11  ctermbg=7  guifg=#657b83  guibg=#eee8d5  gui=reverse
 hi PmenuSbar                               cterm=reverse  ctermfg=0  ctermbg=11  guifg=#073642  guibg=#657b83  gui=reverse
 hi PmenuSel                                cterm=reverse  ctermfg=14  ctermbg=0  guifg=#93a1a1  guibg=#073642  gui=reverse
